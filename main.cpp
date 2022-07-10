@@ -71,7 +71,7 @@ public:
        currentTrack = -1;
        playerMode = stop_mode;
     }
-    void addTrack(Track track) {
+    void addTrack(const Track& track) {
         trackList.push_back(track);
         trackCount = trackList.size();
     }
